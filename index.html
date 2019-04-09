@@ -1,116 +1,102 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-
-    <!-- ACCORDION -->
-
-    <div class="container">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+       <!-- at lesson  -->
+    <!-- <div class="container ">
+        <div class="row">
+            <ul class="tests">
+                <li data-id="1" class=" test">test1</li>
+                <li data-id="2" class=" test sel">test2</li>
+                <li data-id="3" class=" test">test3</li>
+                <li data-id="4" class=" test">test4</li>
+            </ul>
+        </div>
         <div class="row">
             <div class="col-12">
-                <a class="acc_head" href="#">Section 1</a>
-                <p class="acc_body active">1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-                    dolores iste ratione suscipit esse commodi quisquam voluptatem totam quidem, numquam, eaque illo
-                    quia nostrum inventore veniam impedit id facilis harum?</p>
-                <a class="acc_head" href="#">Section 2</a>
-                <p class="acc_body">2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos dolores iste
-                    ratione suscipit esse commodi quisquam voluptatem totam quidem, numquam, eaque illo quia nostrum
-                    inventore veniam impedit id facilis harum?</p>
-                <a class="acc_head" href="#">Section 3</a>
-                <p class="acc_body">3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos dolores iste
-                    ratione suscipit esse commodi quisquam voluptatem totam quidem, numquam, eaque illo quia nostrum
-                    inventore veniam impedit id facilis harum?</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- END OF ACCORDION -->
-
-    <section id="mida">
-        <div class="container">
-            <div class="row">
-                <div class="col-4">
-                    <!-- ul>li*5[data-id=$]{Link $} -->
-                    <ul class="left_menu">
-                        <li class="active" data-id="1">Link 1</li>
-                        <li data-id="2">Link 2</li>
-                        <li data-id="3">Link 3</li>
-                        <li data-id="4">Link 4</li>
-                        <li data-id="5">Link 5</li>
+                <div class="block">
+                    <ul class="position-relative box">
+                        <li data-id="1" class=" active " >1Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero est maiores odio sunt nisi sequi iusto facilis soluta ea consectetur?</li>
+                        <li data-id="2" class=" active selected" >2Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero est maiores odio sunt nisi sequi iusto facilis soluta ea consectetur?</li>
+                        <li data-id="3" class=" active " >3Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero est maiores odio sunt nisi sequi iusto facilis soluta ea consectetur?</li>
+                        <li data-id="4" class=" active " >4Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero est maiores odio sunt nisi sequi iusto facilis soluta ea consectetur?</li>
                     </ul>
                 </div>
-                <div class="col-8 position-relative">
-                    <div class="wrapper">
-                        <div class="info_div active" data-id="1">
-                                1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-                                repellat quisquam, soluta unde ratione corporis odit possimus, architecto error ducimus quod
-                                magni blanditiis dignissimos culpa repellendus nam molestias alias porro consequatur ipsa fuga
-                                excepturi neque quis? Debitis iste voluptatem excepturi quod, atque eius facilis accusantium
-                                quas dignissimos consequuntur dolores, officiis ipsa soluta, facere cupiditate sit quibusdam
-                                odio quae voluptatibus provident nihil id quam saepe. Impedit architecto aliquam eius
-                                recusandae odit.
-                        </div>
-                        <div class="info_div" data-id="2">
-                            2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-                            repellat quisquam, soluta unde ratione corporis odit possimus, architecto error ducimus quod
-                            magni blanditiis dignissimos culpa repellendus nam molestias alias porro consequatur ipsa fuga
-                            excepturi neque quis? Debitis iste voluptatem excepturi quod, atque eius facilis accusantium
-                            quas dignissimos consequuntur dolores, officiis ipsa soluta, facere cupiditate sit quibusdam
-                            odio quae voluptatibus provident nihil id quam saepe. Impedit architecto aliquam eius
-                            recusandae odit.
-                        </div>
-                        <div class="info_div" data-id="3">
-                            3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-                            repellat quisquam, soluta unde ratione corporis odit possimus, architecto error ducimus quod
-                            magni blanditiis dignissimos culpa repellendus nam molestias alias porro consequatur ipsa fuga
-                            excepturi neque quis? Debitis iste voluptatem excepturi quod, atque eius facilis accusantium
-                            quas dignissimos consequuntur dolores, officiis ipsa soluta, facere cupiditate sit quibusdam
-                            odio quae voluptatibus provident nihil id quam saepe. Impedit architecto aliquam eius
-                            recusandae odit.
-                        </div>
-                        <div class="info_div" data-id="4">
-                            4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-                            repellat quisquam, soluta unde ratione corporis odit possimus, architecto error ducimus quod
-                            magni blanditiis dignissimos culpa repellendus nam molestias alias porro consequatur ipsa fuga
-                            excepturi neque quis? Debitis iste voluptatem excepturi quod, atque eius facilis accusantium
-                            quas dignissimos consequuntur dolores, officiis ipsa soluta, facere cupiditate sit quibusdam
-                            odio quae voluptatibus provident nihil id quam saepe. Impedit architecto aliquam eius
-                            recusandae odit.
-                        </div>
-                        <div class="info_div" data-id="5">
-                            5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-                            repellat quisquam, soluta unde ratione corporis odit possimus, architecto error ducimus quod
-                            magni blanditiis dignissimos culpa repellendus nam molestias alias porro consequatur ipsa fuga
-                            excepturi neque quis? Debitis iste voluptatem excepturi quod, atque eius facilis accusantium
-                            quas dignissimos consequuntur dolores, officiis ipsa soluta, facere cupiditate sit quibusdam
-                            odio quae voluptatibus provident nihil id quam saepe. Impedit architecto aliquam eius
-                            recusandae odit.
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
-    </section>
+    </div> -->
+     <!-- at lesson end -->
 
 
-    <a class="link" title="samiur az" href="demo.com">Link 1</a>
-    <a class="link" title="samiur ru" href="samnir.az">Link 2</a>
-    <a class="link" title="samiur en" href="elcin.com">Link 3</a>
-    <a class="link" title="samiur ru" href="veli.az">Link 4</a>
-    <a class="link" title="samiur az" href="elcin.demo.com">Link 5</a>
+
+<!-- ////homework 1  -->
+    <!-- <div class="container">
+     <ul class="justify-content-center">
+         <li class="myli selected">FIRST</li>
+         <li class="myli">SECOND</li>
+         <li class="myli">THIRD</li>
+     </ul>
+    </div> -->
+
+<!-- ////homework 1 end -->
+
+    
+<!-- ////homework 2 -->
+<!-- <div class="container">
+     <ul id="link" >
+       <li data-id="1" class="tabs" > TAB 1</li>
+       <li data-id="2" class="tabs selected" > TAB 2</li>
+       <li data-id="3" class="tabs" > TAB 3</li>
+       <li data-id="4" class="tabs" > TAB 4</li>
+      </ul>
+      <div class="box">
+        <ul id="lorem">
+          <li class="li " data-id="1" > 1 Lorem ipsum dolor, sectetur adipisicing elit. Cupiditate accusamus inventore iure fugit saepe assumenda nobis incidunt beatae ratione provident.</li>
+          <li class="li selected" data-id="2" > 2 Lorem ipsum dolor, sit amet consectetu46546ipisicing elit. Cupiditate accusamus inventore iure fugit saepe assumenda nobis incidunt beatae ratione provident.</li>
+          <li class="li " data-id="3" > 3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate accusamus inventore iure fugit saepe assumenda nobis incidunt beatae ratione provident.</li>
+          <li class="li " data-id="4" > 4 Lorem ipsum dolor,r adipisicing elit. Cupiditate accusamus inventore iure fugit saepe assumenda nobis incidunt beatae ratione provident.</li>
+        </ul>
+      </div>
+</div> -->
+
+<!-- ////homework 2 end -->
 
 
-    <script src="lib/main.js"></script>
-</body>
 
+<!-- ////homework 3  -->
+<!-- <div class="container" style="background-color:white">
+    <div style="background-color: pink" class="box pink"></div>
+    <div style="background-color: orange" class="box orange"></div>
+    <div style="background-color: yellow" class="box yellow"></div>
+    <div style="background-color: blue" class="box blue"></div>
+</div> -->
+
+<!-- ////homework 3 end -->
+
+
+
+<!-- ////homework 4  -->
+
+
+<!-- ////homework 4 end -->
+
+
+
+
+    <!-- Optional JavaScript -->
+    <script src="src/main.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>

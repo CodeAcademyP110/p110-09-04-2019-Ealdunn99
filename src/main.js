@@ -1,32 +1,67 @@
-// ACCORDION
+"use strict";
+////at lesson 
+// [...document.querySelectorAll(".test")].map(li=>{
+//  li.addEventListener("click",function(){
+//      document.querySelector(".sel").classList.remove("sel")
+//      this.classList.add("sel")
+     
+//      document.querySelector(".active.selected").classList.remove("selected")
 
-[...document.querySelectorAll('.acc_head')].map(head => {
-    head.onclick = function(){ this.nextElementSibling.classList.toggle("active"); }
-});
+//      const id = this.getAttribute("data-id"); 
+//      const active = document.querySelector(`.active[data-id="${id}"]`);
+//      active.classList.add("selected");
+//  })
+// });
 
-// const heads = document.querySelectorAll('.acc_head');
-// for(let i = 0; i < heads.length; i++)
-// {
-//     heads[i].onclick = function() { this.nextElementSibling.classList.toggle("active") }
-// }
+////at lesson end
 
-// END OF ACCORDION
 
-[...document.querySelectorAll('.left_menu li')].forEach((li, i) => {
-    li.onclick = function()
-    {
-        //remove active from previous li
-        document.querySelector('.left_menu li.active').classList.remove("active");
-        //add active to new li
-        this.classList.add("active")
 
-        //remove active from previous info_div
-        document.querySelector('.info_div.active').classList.remove("active");
 
-        const id = this.getAttribute("data-id");
-        const infoDiv = document.querySelector(`.info_div[data-id="${id}"]`);
-        infoDiv.classList.add("active")
+////homework 1 
+// [...document.querySelectorAll(".myli")].map(li=>{
+//     li.addEventListener("click",function(){
+//         document.querySelector(".selected").classList.remove("selected")
+//         this.classList.add("selected")
 
-        //add active to new info_div
-    }
-});
+//     })
+// })
+
+////homework 1 end
+
+    
+////homework 2
+
+// [...document.querySelectorAll(".tabs")].map(li=>{
+//     li.addEventListener("click",function(){
+//         document.querySelector(".selected").classList.remove("selected")
+//         this.classList.add("selected")
+//         document.querySelector(".li.selected").classList.remove("selected")
+//         const id = this.getAttribute("data-id"); 
+//         const lis = document.querySelector(`.li[data-id="${id}"]`);
+//         lis.classList.add("selected");
+
+//     })
+// })
+
+////homework 2 end
+
+
+
+////homework 3 
+// [...document.querySelectorAll(".box")].map(li=>{
+//     li.addEventListener("click",function(){
+        
+//         const box=document.querySelector(".container").style.backgroundColor=this.style.backgroundColor
+        
+        
+//     })
+// })
+////homework 3 end
+
+
+
+////homework 4 
+
+
+////homework 4 end

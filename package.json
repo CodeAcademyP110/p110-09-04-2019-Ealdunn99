@@ -1,5 +1,5 @@
 {
-  "name": "09.04.2019",
+  "name": "yoxlama",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,7 +12,6 @@
   "devDependencies": {
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
-    "babel-watch": "^7.0.0"
+    "@babel/preset-env": "^7.4.3"
   }
 }
